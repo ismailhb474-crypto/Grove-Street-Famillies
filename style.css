@@ -1,0 +1,215 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+
+#Home {
+  background: url(imag/bck.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 32px;
+}
+#Home .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 80vh;
+  
+}
+#Home .content .text {
+  width: 100vh;
+  text-align: left;
+  margin: 1rem;
+  color: white;
+
+}
+#Home .content .text h2 { 
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bold;
+}
+#Home .content .text p {
+  font-weight: bold;
+}
+#Home .content img {
+  display: none;
+}
+  .qq {
+    color: #04AA6D;
+  }
+/* From Uiverse.io by KINGFRESS */ 
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #171717;
+  padding: 1em 2em;
+  border: none;
+  border-radius: .6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  
+}
+
+button span:not(:nth-child(6)) {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  height: 30px;
+  width: 30px;
+  background-color: #00ff55;
+  border-radius: 50%;
+  transition: .6s ease;
+}
+
+button span:nth-child(6) {
+  position: relative;
+}
+
+button span:nth-child(1) {
+  transform: translate(-3.3em, -4em);
+}
+
+button span:nth-child(2) {
+  transform: translate(-6em, 1.3em);
+}
+
+button span:nth-child(3) {
+  transform: translate(-.2em, 1.8em);
+}
+
+button span:nth-child(4) {
+  transform: translate(3.5em, 1.4em);
+}
+
+button span:nth-child(5) {
+  transform: translate(3.5em, -3.8em);
+}
+
+button:hover span:not(:nth-child(6)) {
+  transform: translate(-50%, -50%) scale(4);
+  transition: 1.5s ease;
+}
+  
+
+
+#Story .content1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  margin-inline: 2rem;
+}
+#Story .content1 img {
+  width: 50vh;
+  border-radius: 10px;
+  transition: 1s;
+}
+#Story .content1 img:hover {
+transform: scale(1.03);
+}
+#Story .content1 .text1 {
+    width: 100vh;
+    line-height: 1.3rem;
+}
+#Story .content1 .text1 h2 {
+  color: #00ff55;
+}
+#Story .content1 .text1 p {
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media (max-width: 370px) {
+  #Story .content1 img {
+    width: 40vh;
+  }
+}
+@media (max-width: 304px) {
+  #Story .content1 img {
+    width: 30vh;
+  }
+}
+
+@media (max-width: 430px) {
+  #Story .content1 img {
+    width: 30vh;
+  }
+}
+
+
+
+#imag .imag-gallary img {
+  width: 300px;
+  height: 200px;
+  border-radius: 15px;
+  margin: 20px;
+  opacity: 0.9;
+  transition: 1s;
+}
+#imag .imag-gallary img:hover {
+  opacity: 1;
+  transform: scale(1.01);
+}
+#imag .container h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size:30px;
+}
+#imag .imag-gallary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-bottom: 2rem;
+}
+
+
+
+
+#end {
+  
+  background-color: #04AA6D;
+  padding: 2px 0;
+  text-align: center;
+  font-size: 16px;
+ 
+}
+#end p {
+  font-weight: bold;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
